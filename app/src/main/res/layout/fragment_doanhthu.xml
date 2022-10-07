@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp">
+        <Button
+            android:id="@+id/btnTungay"
+            android:text="Từ ngày"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custom_btn"
+            app:backgroundTint="@null"/>
+        <EditText
+            android:id="@+id/edtTungay"
+            android:hint="yyyy/MM/dd"
+            android:textSize="20sp"
+            android:textColor="#D30808"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp">
+        <Button
+            android:id="@+id/btnDenngay"
+            android:text="Đến ngày"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/custom_btn"
+            app:backgroundTint="@null"
+            android:layout_marginRight="10dp"/>
+        <EditText
+            android:id="@+id/edtDenngay"
+            android:textSize="20sp"
+            android:textColor="#D30808"
+            android:hint="yyyy/MM/dd"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="40dp"
+        android:drawableLeft="@drawable/ic_money"
+        android:text="Tổng doanh thu"
+        android:textSize="20dp"
+        android:textColor="#D30808"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_btn"
+        app:backgroundTint="@null"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/btnDoanhthu"/>
+
+    <TextView
+        android:id="@+id/txtDoanhthu"
+        android:layout_marginTop="30dp"
+        android:textSize="25sp"
+        android:textColor="#C51010"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
